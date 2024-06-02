@@ -117,10 +117,10 @@ augmentations = Compose([
 ], bbox_params={'format': 'pascal_voc', 'label_fields': ['labels']})
 
 # Directories
-image_dir = 'C:/Users/HP PAVILION/Downloads/yellow_images-20240528T101119Z-001/yellow_images/images'
-ann_dir = 'C:/Users/HP PAVILION/Downloads/yellow_images-20240528T101119Z-001/yellow_images/ann'
-output_image_dir = 'C:/Users/HP PAVILION/Downloads/yellow_images-20240528T101119Z-001/yellow_images/aug_images'
-output_ann_dir = 'C:/Users/HP PAVILION/Downloads/yellow_images-20240528T101119Z-001/yellow_images/aug_ann'
+image_dir = '/kaggle/working/TrafficLightClassification/yellow_images/images'
+ann_dir = '/kaggle/working/TrafficLightClassification/yellow_images/ann'
+output_image_dir = '/kaggle/working/TrafficLightClassification/yellow_images/aug_images'
+output_ann_dir = '/kaggle/working/TrafficLightClassification/yellow_images/aug_ann'
 
 # Ensure output directories exist
 os.makedirs(output_image_dir, exist_ok=True)
