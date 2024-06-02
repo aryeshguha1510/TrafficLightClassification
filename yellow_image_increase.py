@@ -6,13 +6,7 @@ import cv2
 
 import argparse
 
-# Define the augmentations
-augmentations = Compose([
-    HorizontalFlip(p=0.5),
-    RandomBrightnessContrast(p=0.5, brightness_limit=0.2, contrast_limit=0.2),
-    Affine(shear=(0, 20), p=0.5),
-    Blur(blur_limit=7, p=0.5)
-], bbox_params={'format': 'pascal_voc', 'label_fields': ['labels']})
+
 
 # Function to augment image and save it
 def augment_and_save(image_path, augmentations, new_filename, bboxes, labels):
@@ -113,6 +107,15 @@ def parse_folder(folder, ann_folder, output_image_folder, output_ann_folder, aug
                     if new_bboxes:
                         update_json(file_path, output_ann_folder, new_bboxes, new_labels, i)
 
+
+# Define the augmentations
+augmentations = Compose([
+    HorizontalFlip(p=0.5),
+    RandomBrightnessContrast(p=0.5, brightness_limit=0.2, contrast_limit=0.2),
+    Affine(shear=(0, 20), p=0.5),
+    Blur(blur_limit=7, p=0.5)
+], bbox_params={'format': 'pascal_voc', 'label_fields': ['labels']})
+
 # Directories
 image_dir = 'C:/Users/HP PAVILION/Downloads/yellow_images-20240528T101119Z-001/yellow_images/images'
 ann_dir = 'C:/Users/HP PAVILION/Downloads/yellow_images-20240528T101119Z-001/yellow_images/ann'
@@ -128,5 +131,8 @@ parser.add_argument('--k', type=int, help='Number of augmentated images to be ma
 parser.add_argument('--aug', type=int, help='Enter the number of augmentations per image')
 args = parser.parse_args()
 
-# Parse folder and apply augmentations
-parse_folder(image_dir, ann_dir, output_image_dir, output_ann_dir, args.aug, args.k)
+
+if __name__ == '__main__':
+    
+    # Parse folder and apply augmentations
+    parse_folder(image_dir, ann_dir, output_image_dir, output_ann_dir, args.aug, args.k)
