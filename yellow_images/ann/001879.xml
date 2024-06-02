@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation><object><name>yellow</name><bndbox><xmin>601</xmin><ymin>96</ymin><xmax>628</xmax><ymax>201</ymax></bndbox></object><object><name>yellow</name><bndbox><xmin>678</xmin><ymin>93</ymin><xmax>703</xmax><ymax>201</ymax></bndbox></object></annotation>

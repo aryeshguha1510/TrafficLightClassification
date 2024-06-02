@@ -1,0 +1,173 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 21448512,
+            "tagId": 32241,
+            "name": "sequence",
+            "value": "Clip5",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T14:55:42.375Z",
+            "updatedAt": "2024-03-10T14:55:42.375Z"
+        },
+        {
+            "id": 21448513,
+            "tagId": 32242,
+            "name": "day",
+            "value": null,
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T14:55:42.375Z",
+            "updatedAt": "2024-03-10T14:55:42.375Z"
+        },
+        {
+            "id": 21448514,
+            "tagId": 32240,
+            "name": "track frame number",
+            "value": 117,
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T14:55:42.375Z",
+            "updatedAt": "2024-03-10T14:55:42.375Z"
+        }
+    ],
+    "size": {
+        "height": 960,
+        "width": 1280
+    },
+    "objects": [
+        {
+            "id": 157899257,
+            "classId": 6550269,
+            "objectId": null,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T14:55:42.375Z",
+            "updatedAt": "2024-03-10T14:55:42.375Z",
+            "tags": [],
+            "classTitle": "go traffic light",
+            "points": {
+                "exterior": [
+                    [
+                        [
+                            671,
+                            401
+                        ],
+                        [
+                            686,
+                            429
+                        ]
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 157899258,
+            "classId": 6550269,
+            "objectId": null,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T14:55:42.375Z",
+            "updatedAt": "2024-03-10T14:55:42.375Z",
+            "tags": [],
+            "classTitle": "go traffic light",
+            "points": {
+                "exterior": [
+                    [
+                        [
+                            786,
+                            436
+                        ],
+                        [
+                            804,
+                            470
+                        ]
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 157899259,
+            "classId": 6550272,
+            "objectId": null,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T14:55:42.376Z",
+            "updatedAt": "2024-03-10T14:55:42.376Z",
+            "tags": [],
+            "classTitle": "warning traffic light",
+            "points": {
+                "exterior": [
+                    [
+                        [
+                            835,
+                            241
+                        ],
+                        [
+                            874,
+                            317
+                        ]
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 157899260,
+            "classId": 6550272,
+            "objectId": null,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T14:55:42.376Z",
+            "updatedAt": "2024-03-10T14:55:42.376Z",
+            "tags": [],
+            "classTitle": "warning traffic light",
+            "points": {
+                "exterior": [
+                    [
+                        [
+                            981,
+                            275
+                        ],
+                        [
+                            1017,
+                            351
+                        ]
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 157899261,
+            "classId": 6550272,
+            "objectId": null,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T14:55:42.376Z",
+            "updatedAt": "2024-03-10T14:55:42.376Z",
+            "tags": [],
+            "classTitle": "warning traffic light",
+            "points": {
+                "exterior": [
+                    [
+                        [
+                            1154,
+                            372
+                        ],
+                        [
+                            1178,
+                            427
+                        ]
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

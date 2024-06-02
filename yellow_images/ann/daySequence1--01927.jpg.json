@@ -1,0 +1,146 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 21778301,
+            "tagId": 32241,
+            "name": "sequence",
+            "value": "Sequence1",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T18:08:49.991Z",
+            "updatedAt": "2024-03-10T18:08:49.991Z"
+        },
+        {
+            "id": 21778302,
+            "tagId": 32242,
+            "name": "day",
+            "value": null,
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T18:08:49.991Z",
+            "updatedAt": "2024-03-10T18:08:49.991Z"
+        },
+        {
+            "id": 21778303,
+            "tagId": 32240,
+            "name": "track frame number",
+            "value": 1927,
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T18:08:49.991Z",
+            "updatedAt": "2024-03-10T18:08:49.991Z"
+        }
+    ],
+    "size": {
+        "height": 960,
+        "width": 1280
+    },
+    "objects": [
+        {
+            "id": 158608839,
+            "classId": 6550272,
+            "objectId": null,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T18:08:49.992Z",
+            "updatedAt": "2024-03-10T18:08:49.992Z",
+            "tags": [],
+            "classTitle": "warning traffic light",
+            "points": {
+                "exterior": [
+                    [
+                        [
+                            939,
+                            452
+                        ],
+                        [
+                            966,
+                            497
+                        ]
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 158608840,
+            "classId": 6550272,
+            "objectId": null,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T18:08:49.992Z",
+            "updatedAt": "2024-03-10T18:08:49.992Z",
+            "tags": [],
+            "classTitle": "warning traffic light",
+            "points": {
+                "exterior": [
+                    [
+                        [
+                            609,
+                            358
+                        ],
+                        [
+                            633,
+                            399
+                        ]
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 158608841,
+            "classId": 6550272,
+            "objectId": null,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T18:08:49.993Z",
+            "updatedAt": "2024-03-10T18:08:49.993Z",
+            "tags": [],
+            "classTitle": "warning traffic light",
+            "points": {
+                "exterior": [
+                    [
+                        [
+                            724,
+                            355
+                        ],
+                        [
+                            751,
+                            410
+                        ]
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 158608842,
+            "classId": 6550272,
+            "objectId": null,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T18:08:49.993Z",
+            "updatedAt": "2024-03-10T18:08:49.993Z",
+            "tags": [],
+            "classTitle": "warning traffic light",
+            "points": {
+                "exterior": [
+                    [
+                        [
+                            0,
+                            436
+                        ],
+                        [
+                            16,
+                            466
+                        ]
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

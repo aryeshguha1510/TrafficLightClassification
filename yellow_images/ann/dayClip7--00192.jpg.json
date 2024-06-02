@@ -1,0 +1,92 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 21457445,
+            "tagId": 32241,
+            "name": "sequence",
+            "value": "Clip7",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T15:02:48.119Z",
+            "updatedAt": "2024-03-10T15:02:48.119Z"
+        },
+        {
+            "id": 21457446,
+            "tagId": 32242,
+            "name": "day",
+            "value": null,
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T15:02:48.119Z",
+            "updatedAt": "2024-03-10T15:02:48.119Z"
+        },
+        {
+            "id": 21457447,
+            "tagId": 32240,
+            "name": "track frame number",
+            "value": 192,
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T15:02:48.119Z",
+            "updatedAt": "2024-03-10T15:02:48.119Z"
+        }
+    ],
+    "size": {
+        "height": 960,
+        "width": 1280
+    },
+    "objects": [
+        {
+            "id": 157917424,
+            "classId": 6550272,
+            "objectId": null,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T15:02:48.121Z",
+            "updatedAt": "2024-03-10T15:02:48.121Z",
+            "tags": [],
+            "classTitle": "warning traffic light",
+            "points": {
+                "exterior": [
+                    [
+                        [
+                            884,
+                            216
+                        ],
+                        [
+                            908,
+                            266
+                        ]
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 157917425,
+            "classId": 6550272,
+            "objectId": null,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2024-03-10T15:02:48.121Z",
+            "updatedAt": "2024-03-10T15:02:48.121Z",
+            "tags": [],
+            "classTitle": "warning traffic light",
+            "points": {
+                "exterior": [
+                    [
+                        [
+                            1070,
+                            270
+                        ],
+                        [
+                            1091,
+                            310
+                        ]
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}
